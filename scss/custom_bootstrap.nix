@@ -67,6 +67,13 @@ colors: {
       $border-color:             ${colors.themed.border_default.color_light},
       $border-color-translucent: rgb(${colors.themed.border_default.color_light}, 0.5),
 
+      /*
+      $box-shadow:       0 0.5rem 1rem rgb($focus-ring-color, $focus-ring-opacity),
+      $box-shadow-sm: 0 0.125rem 0.25rem rgb($focus-ring-color, 0.075),
+      $box-shadow-lg: 0 1rem 3rem rgb($focus-ring-color, 0.175),
+      $box-shadow-inset: inset 1px 2px rgb($focus-ring-color, 0.075),
+      */
+
       $component-active-bg:    ${colors.themed.accent_default_bg.color_light},
       $component-active-color: ${colors.themed.accent_default_fg.color_light},
 
@@ -79,6 +86,14 @@ colors: {
 
       $table-border-color:  ${colors.themed.border_2.color_light},
       $table-caption-color: ${colors.themed.gray_dark_fg.color_light},
+
+      // buttons + forms
+      // (shared variables that are reassigned to `$input-` and `$btn-` specific variables)
+
+      $input-btn-focus-color-opacity: 0.25,
+      /*
+      $input-btn-focus-color:         $focus-ring-color,
+      */
 
       // buttons
 
