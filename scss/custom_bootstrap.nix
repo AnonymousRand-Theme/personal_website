@@ -18,7 +18,7 @@ colors: {
     $navbar-dark-color:        $body-color;
     $navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
 
-    @use "../node_modules/bootstrap/scss/bootstrap" with (
+    @use "../../node_modules/bootstrap/scss/bootstrap" with (
       // IMPORTANT: currently for bootstrap v5.3.*! variables may change in different versions
 
       // font
