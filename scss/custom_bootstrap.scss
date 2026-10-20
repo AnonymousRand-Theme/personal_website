@@ -65,6 +65,13 @@ $navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
   $border-color:             #ffc7e4,
   $border-color-translucent: rgb(#ffc7e4, 0.5),
 
+  /*
+  $box-shadow:       0 0.5rem 1rem rgb($focus-ring-color, $focus-ring-opacity),
+  $box-shadow-sm: 0 0.125rem 0.25rem rgb($focus-ring-color, 0.075),
+  $box-shadow-lg: 0 1rem 3rem rgb($focus-ring-color, 0.175),
+  $box-shadow-inset: inset 1px 2px rgb($focus-ring-color, 0.075),
+  */
+
   $component-active-bg:    #ffe6f2,
   $component-active-color: #ff73b9,
 
@@ -77,6 +84,14 @@ $navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
 
   $table-border-color:  #ff91c8,
   $table-caption-color: #707070,
+
+  // buttons + forms
+  // (shared variables that are reassigned to `$input-` and `$btn-` specific variables)
+
+  $input-btn-focus-color-opacity: 0.25,
+  /*
+  $input-btn-focus-color:         $focus-ring-color,
+  */
 
   // buttons
 
