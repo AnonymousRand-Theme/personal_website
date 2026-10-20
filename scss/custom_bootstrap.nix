@@ -84,7 +84,7 @@ colors: {
 
       // tables
 
-      $table-border-color:  ${colors.themed.border_2.color_light},
+      $table-border-color:  ${colors.themed.border_default.color_light},
       $table-caption-color: ${colors.themed.gray_dark_fg.color_light},
 
       // buttons + forms
@@ -148,15 +148,15 @@ colors: {
       $dropdown-bg:           $variant-1-bg,
       $dropdown-color:        $variant-1-color,
 
-      $dropdown-link-color:       ${colors.themed.link.color_light},
-      $dropdown-link-hover-color: ${colors.themed.link_hover.color_light},
+      $dropdown-link-color:       $variant-1-color,
+      $dropdown-link-hover-color: $variant-1-color,
       $dropdown-header-color:     ${colors.themed.pink_xlight_fg.color_light},
 
       $dropdown-dark-border-color:     $variant-1-border,
       $dropdown-dark-bg:               $variant-1-bg,
       $dropdown-dark-color:            $variant-1-color,
-      $dropdown-dark-link-color:       ${colors.themed.link.color_light},
-      $dropdown-dark-link-hover-color: ${colors.themed.link_hover.color_light},
+      $dropdown-dark-link-color:       $variant-1-color,
+      $dropdown-dark-link-hover-color: $variant-1-color,
       $dropdown-dark-header-color:     ${colors.themed.pink_xlight_fg.color_light},
 
       // cards

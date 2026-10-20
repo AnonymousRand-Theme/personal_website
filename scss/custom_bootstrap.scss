@@ -82,7 +82,7 @@ $navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
 
   // tables
 
-  $table-border-color:  #ff91c8,
+  $table-border-color:  #ffc7e4,
   $table-caption-color: #707070,
 
   // buttons + forms
@@ -146,15 +146,15 @@ $navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
   $dropdown-bg:           $variant-1-bg,
   $dropdown-color:        $variant-1-color,
 
-  $dropdown-link-color:       #ff73b9,
-  $dropdown-link-hover-color: #ff409f,
+  $dropdown-link-color:       $variant-1-color,
+  $dropdown-link-hover-color: $variant-1-color,
   $dropdown-header-color:     #ff73b9,
 
   $dropdown-dark-border-color:     $variant-1-border,
   $dropdown-dark-bg:               $variant-1-bg,
   $dropdown-dark-color:            $variant-1-color,
-  $dropdown-dark-link-color:       #ff73b9,
-  $dropdown-dark-link-hover-color: #ff409f,
+  $dropdown-dark-link-color:       $variant-1-color,
+  $dropdown-dark-link-hover-color: $variant-1-color,
   $dropdown-dark-header-color:     #ff73b9,
 
   // cards
