@@ -23,8 +23,8 @@ colors: {
 
       // font
 
-      $font-family-sans-serif: "Quicksand :3",
-      $font-family-monospace:  "Maple Mono NL",
+      $font-family-sans-serif: ("Quicksand :3", "Quicksand", sans-serif),
+      $font-family-monospace:  ("Maple Mono NL", monospace),
       $font-size-root:         $font-size,
 
       $font-weight-normal:   $font-weight,
