@@ -11,67 +11,28 @@ $variant-1-color:  #505050;
 
 $disabled-opacity: 0.5;
 
-$navbar-light-color:       $body-color;
-$navbar-light-hover-color: hsl(from #{$navbar-light-color} h s calc(l - 2.5));
-$navbar-dark-color:        $body-color;
-$navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
-
 @use "bootstrap/scss/bootstrap" with (
   // IMPORTANT: currently for bootstrap v5.3.*! variables may change in different versions
 
-  // font
+  // typography
 
-  $font-family-sans-serif: ("Quicksand :3", "Quicksand", sans-serif),
-  $font-family-monospace:  ("Maple Mono NL", monospace),
-  $font-size-root:         $font-size,
-
-  $font-weight-normal:   $font-weight,
-  $headings-font-weight: $font-weight,
-  $input-font-weight:    $font-weight,
-
-  $red:     #ff0000,
-  $orange:  #ffaa00,
-  $yellow:  #ffaa00,
-  $green:   #78da00,
-  $teal:    #00d0ff,
-  $cyan:    #00eaff,
-  $blue:    #59d3ff,
-  $indigo:  #6c00bf,
-  $purple:  #ff00ea,
-  $pink:    #ff73b9,
-
-  $primary:   #ff73b9,
-  $secondary: #00eaff,
-  $success:   #4c8a00,
-  $info:      #00c4d6,
-  $warning:   #bd6800,
-  $danger:    #cc0000,
-  $light:     #f0f0f0,
-  $dark:      #242424,
-
-  // body
-
-  $body-bg:    #ffffff,
-  $body-color: #505050,
-
-  // links
-
-  $link-color:       #ff73b9,
-  $link-hover-color: #ff409f,
-
-  // components
-
-  $border-width:             2px,
-  $border-color:             #ffc7e4,
-  $border-color-translucent: rgb(#ffc7e4, 0.5),
-
-  $component-active-bg:    #ffe6f2,
-  $component-active-color: #ff73b9,
+  //$font-weight-normal:   $font-weight,
+  //$headings-font-weight: $font-weight,
+  //$input-font-weight:    $font-weight,
 
   $text-muted: #707070,
 
   $hr-opacity: 1,
   $hr-color:   #ffc7e4,
+
+  // components
+
+  //$border-width:             2px,
+  //$border-color:             #ffc7e4,
+  //$border-color-translucent: rgb(#ffc7e4, 0.5),
+
+  $component-active-bg:    #ffe6f2,
+  $component-active-color: #ff73b9,
 
   // tables
 
@@ -110,94 +71,54 @@ $navbar-dark-hover-color:  hsl(from #{$navbar-dark-color} h s calc(l - 2.5));
   $form-file-button-hover-bg: hsl(from #{$variant-1-bg} h s calc(l - 2.5)),
 
   // override this as it tries to use `mix()` on css var
-  $form-range-thumb-active-bg: #ffe6f2,
+  //$form-range-thumb-active-bg: #ffe6f2,
 
   // navbar
 
-  $nav-link-disabled-color: #ffabd5,
-
-  $navbar-light-color:                $navbar-light-color,
-  $navbar-light-hover-color:          $navbar-light-hover-color,
-  $navbar-light-active-color:         hsl(from #{$navbar-light-hover-color} h s calc(l - 2.5)),
-  $navbar-light-disabled-color:       rgb(from #{$navbar-light-color} r g b / $disabled-opacity),
-  $navbar-light-toggler-border-color: #ffdbed,
   $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#ffc7e4' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"),
-
-  $navbar-dark-color:                $navbar-dark-color,
-  $navbar-dark-hover-color:          $navbar-dark-hover-color,
-  $navbar-dark-active-color:         hsl(from #{$navbar-dark-hover-color} h s calc(l - 2.5)),
-  $navbar-dark-disabled-color:       rgb(from #{$navbar-dark-color} r g b / $disabled-opacity),
-  $navbar-dark-toggler-border-color: #ffdbed,
   $navbar-dark-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#ffc7e4' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"),
-
-  // dropdowns
-
-  $dropdown-border-color: $variant-1-border,
-  $dropdown-bg:           $variant-1-bg,
-  $dropdown-color:        $variant-1-color,
-
-  $dropdown-link-color:       $variant-1-color,
-  $dropdown-link-hover-color: $variant-1-color,
-  $dropdown-header-color:     #ff73b9,
-
-  $dropdown-dark-border-color:     $variant-1-border,
-  $dropdown-dark-bg:               $variant-1-bg,
-  $dropdown-dark-color:            $variant-1-color,
-  $dropdown-dark-link-color:       $variant-1-color,
-  $dropdown-dark-link-hover-color: $variant-1-color,
-  $dropdown-dark-header-color:     #ff73b9,
-
-  // cards
-
-  $card-border-color: $variant-1-border,
-  $card-bg:           $variant-1-bg,
-  $card-color:        $variant-1-color,
-  $card-cap-bg:       #feedf3,
-  $card-cap-color:    #707070,
 
   // accordion
 
   // override this as it tries to use `mix()` on css var
-  $accordion-button-active-bg:    #ffe6f2,
-  $accordion-button-active-color: #ff73b9,
+  //$accordion-button-active-bg:    #ffe6f2,
+  //$accordion-button-active-color: #ff73b9,
 
   // tooltips
 
-  $tooltip-opacity: 1,
-  $tooltip-bg:      $variant-1-bg,
-  $tooltip-color:   $variant-1-color,
+  //$tooltip-opacity: 1,
 
   // popovers
 
-  $popover-border-color: $variant-1-border,
-  $popover-bg:           $variant-1-bg,
-  $popover-body-color:   $variant-1-color,
+  //$popover-border-color: $variant-1-border,
+  //$popover-bg:           $variant-1-bg,
+  //$popover-body-color:   $variant-1-color,
 
-  $popover-header-bg:    #feedf3,
-  $popover-header-color: #707070,
+  //$popover-header-bg:    #feedf3,
+  //$popover-header-color: #707070,
 
   // modals
 
-  $modal-content-bg:           $body-bg,
-  $modal-content-border-color: $body-border,
+  //$modal-content-border-color: $body-border,
+  //$modal-content-bg:           $body-bg,
 
-  $modal-backdrop-bg:      #ffe6f2,
-  $modal-backdrop-opacity: 0.3,
+  //$modal-backdrop-bg:      #ffe6f2,
+  //$modal-backdrop-opacity: 0.3,
 
-  $modal-header-border-color: #ffc7e4,
-  $modal-footer-border-color: #ffc7e4,
+  //$modal-header-border-color: #ffc7e4,
+  //$modal-footer-border-color: #ffc7e4,
 
   // figures
 
-  $figure-caption-color: #707070,
+  //$figure-caption-color: #707070,
 
   // close
 
-  $btn-close-color: #ff73b9,
+  //$btn-close-color: #ff73b9,
 
   // code
 
   $code-font-size: 1em,
-  $code-color:     #ff409f,
+  //$code-color:     #ff409f,
   $pre-color:      #707070
 );
