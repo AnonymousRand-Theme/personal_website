@@ -113,7 +113,7 @@
   ---color-gray-xlight-fg: #909090;
   ---color-gray-xxdark-fg: #f0f0f0;
   ---color-gray-xxlight-border: #808080;
-  ---color-gray-xxxlight-bg: #505050;
+  ---color-gray-xxxlight-bg: #242424;
   ---color-green-bg: #b7ff00;
   ---color-green-border: #b7ff00;
   ---color-green-deep-dark-fg: #8cff00;
@@ -130,10 +130,10 @@
   ---color-info-bg: #e0fcff;
   ---color-info-fg: #00c4d6;
   ---color-lighter-fg: #909090;
-  ---color-link: #c9ff40;
-  ---color-link-disabled: #70cc00;
-  ---color-link-hover: #deff8c;
-  ---color-link-visited: #deff8c;
+  ---color-link: #ffc7e4;
+  ---color-link-disabled: #ff91c8;
+  ---color-link-hover: #ffdbed;
+  ---color-link-visited: #ffdbed;
   ---color-md-bold: #ffabd5;
   ---color-md-code: #ff91c8;
   ---color-md-italic: #ffabd5;
@@ -146,10 +146,10 @@
   ---color-orange-xlight-border: #ffd500;
   ---color-orange-xxdeep-fg: #ffdb26;
   ---color-orange-xxxdeep-fg: #ffec8c;
-  ---color-pink-light-fg: #ffc7e4;
-  ---color-pink-xlight-fg: #ffabd5;
+  ---color-pink-light-fg: #ffdbed;
+  ---color-pink-xlight-fg: #ffc7e4;
   ---color-pink-xxlight-fg: #ffabd5;
-  ---color-pink-xxxlight-fg: #ffabd5;
+  ---color-pink-xxxlight-fg: #ff91c8;
   ---color-pink-xxxxlight-bg: #ffc7e4;
   ---color-pink-xxxxlight-border: #ffabd5;
   ---color-pink-xxxxxxlight-bg: #ffc7e4;
@@ -172,7 +172,7 @@
   ---color-variant-1-gray-fg: #f0f0f0;
   ---color-variant-2-bg: #000000;
   ---color-variant-2-border: #ffabd5;
-  ---color-variant-2-fg: #ffabd5;
+  ---color-variant-2-fg: #ffc7e4;
   ---color-variant-2-gray-fg: #f0f0f0;
   ---color-warning: #ffbb00;
   ---color-warning-bg: #ffeecc;
