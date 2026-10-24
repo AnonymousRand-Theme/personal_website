@@ -199,7 +199,7 @@ colors: {
 
       // code
 
-      $code-font-size: $font-size,
+      $code-font-size: 1em,
       $code-color:     ${colors.themed.md_code.color_light},
       $pre-color:      ${colors.themed.gray_dark_fg.color_light}
     );
