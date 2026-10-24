@@ -25,7 +25,7 @@
   --darkreader-border---color-accent-default-border: #ff91c8;
   --darkreader-text---color-accent-default-fg: #ff409f;
   --darkreader-text---color-accent-gold-fg: #ffbb00;
-  --darkreader-text---color-accent-gray-fg: #cccccc;
+  --darkreader-text---color-accent-gray-fg: #f0f0f0;
   --darkreader-text---color-accent-green-fg: #a3ff33;
   --darkreader-text---color-accent-indigo-fg: #6c00bf;
   --darkreader-text---color-accent-olive-fg: #78da00;
@@ -109,7 +109,7 @@
   --darkreader-text---color-error-fg: #cc0000;
   --darkreader-text---color-gray-dark-fg: #cccccc;
   --darkreader-text---color-gray-fg: #a8a8a8;
-  --darkreader-text---color-gray-xdark-fg: #cccccc;
+  --darkreader-text---color-gray-xdark-fg: #f0f0f0;
   --darkreader-text---color-gray-xlight-fg: #909090;
   --darkreader-text---color-gray-xxdark-fg: #f0f0f0;
   --darkreader-border---color-gray-xxlight-border: #808080;
@@ -169,11 +169,11 @@
   --darkreader-bg---color-variant-1-bg: #242424;
   --darkreader-border---color-variant-1-border: #ffabd5;
   --darkreader-text---color-variant-1-fg: #ffabd5;
-  --darkreader-text---color-variant-1-gray-fg: #cccccc;
+  --darkreader-text---color-variant-1-gray-fg: #f0f0f0;
   --darkreader-bg---color-variant-2-bg: #000000;
   --darkreader-border---color-variant-2-border: #ffabd5;
   --darkreader-text---color-variant-2-fg: #ffabd5;
-  --darkreader-text---color-variant-2-gray-fg: #cccccc;
+  --darkreader-text---color-variant-2-gray-fg: #f0f0f0;
   --darkreader-text---color-warning: #ffbb00;
   --darkreader-bg---color-warning-bg: #ffeecc;
   --darkreader-text---color-warning-fg: #bd6800;
