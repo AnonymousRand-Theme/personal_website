@@ -67,13 +67,6 @@ colors: {
       $border-color:             ${colors.themed.border_default.color_light},
       $border-color-translucent: rgb(${colors.themed.border_default.color_light}, 0.5),
 
-      /*
-      $box-shadow:       0 0.5rem 1rem rgb($focus-ring-color, $focus-ring-opacity),
-      $box-shadow-sm: 0 0.125rem 0.25rem rgb($focus-ring-color, 0.075),
-      $box-shadow-lg: 0 1rem 3rem rgb($focus-ring-color, 0.175),
-      $box-shadow-inset: inset 1px 2px rgb($focus-ring-color, 0.075),
-      */
-
       $component-active-bg:    ${colors.themed.accent_default_bg.color_light},
       $component-active-color: ${colors.themed.accent_default_fg.color_light},
 
@@ -91,9 +84,11 @@ colors: {
       // (shared variables that are reassigned to `$input-` and `$btn-` specific variables)
 
       $input-btn-focus-color-opacity: 0.25,
-      /*
-      $input-btn-focus-color:         $focus-ring-color,
-      */
+
+      // e.g. file form button? (though that actually seems to use `--bs-tertiary-bg`?)
+      $input-group-addon-border-color: $variant-1-border,
+      $input-group-addon-bg:           $variant-1-bg,
+      $input-group-addon-color:        $variant-1-color,
 
       // buttons
 
@@ -113,11 +108,6 @@ colors: {
       $form-check-input-bg:     $body-bg,
 
       $form-switch-color: ${colors.themed.gray_xxxlight_bg.color_light},
-
-      // e.g. file form button
-      $input-group-addon-border-color: $variant-1-border,
-      $input-group-addon-bg:           $variant-1-bg,
-      $input-group-addon-color:        $variant-1-color,
 
       $form-file-button-hover-bg: hsl(from #{$variant-1-bg} h s calc(l - 2.5)),
 
