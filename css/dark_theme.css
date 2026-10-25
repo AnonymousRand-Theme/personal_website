@@ -25,7 +25,7 @@
   ---color-accent-default-border: #ff91c8;
   ---color-accent-default-fg: #ff409f;
   ---color-accent-gold-fg: #ffbb00;
-  ---color-accent-gray-fg: #f0f0f0;
+  ---color-accent-gray-fg: #e8e8e8;
   ---color-accent-green-fg: #a3ff33;
   ---color-accent-indigo-fg: #6c00bf;
   ---color-accent-olive-fg: #78da00;
@@ -108,9 +108,9 @@
   ---color-error-fg: #cc0000;
   ---color-gray-dark-fg: #cccccc;
   ---color-gray-fg: #a8a8a8;
-  ---color-gray-xdark-fg: #f0f0f0;
+  ---color-gray-xdark-fg: #e8e8e8;
   ---color-gray-xlight-fg: #909090;
-  ---color-gray-xxdark-fg: #f0f0f0;
+  ---color-gray-xxdark-fg: #e8e8e8;
   ---color-gray-xxlight-border: #808080;
   ---color-gray-xxxlight-bg: #242424;
   ---color-green-border: #b7ff00;
@@ -167,11 +167,11 @@
   ---color-variant-1-bg: #242424;
   ---color-variant-1-border: #ffabd5;
   ---color-variant-1-fg: #ffabd5;
-  ---color-variant-1-gray-fg: #f0f0f0;
+  ---color-variant-1-gray-fg: #e8e8e8;
   ---color-variant-2-bg: #000000;
   ---color-variant-2-border: #ffabd5;
   ---color-variant-2-fg: #ffc7e4;
-  ---color-variant-2-gray-fg: #f0f0f0;
+  ---color-variant-2-gray-fg: #e8e8e8;
   ---color-warning: #ffbb00;
   ---color-warning-bg: #ffeecc;
   ---color-warning-fg: #bd6800;
